@@ -1,4 +1,4 @@
-﻿// (c) copyright Hutong Games, LLC 2010-2011. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
 using UnityEngine;
 
@@ -9,14 +9,15 @@ namespace HutongGames.PlayMaker.Actions
 	public class ActivateGameObject : FsmStateAction
 	{
 		[RequiredField]
-		public FsmOwnerDefault gameObject;
+        [Tooltip("The GameObject to activate/deactivate.")]
+        public FsmOwnerDefault gameObject;
 		
-        [Tooltip("Check to activate, uncheck to deactivate Game Object.")]
 		[RequiredField]
-		public FsmBool activate;
+        [Tooltip("Check to activate, uncheck to deactivate Game Object.")]
+        public FsmBool activate;
 		
         [Tooltip("Recursively activate/deactivate all children.")]
-		public FsmBool recursive; // This option doesn't seem to make much sense with Unity 4...?
+		public FsmBool recursive; 
 		
         [Tooltip("Reset the game objects when exiting this state. Useful if you want an object to be active only while this state is active.\nNote: Only applies to the last Game Object activated/deactivated (won't work if Game Object changes).")]
 		public bool resetOnExit;
@@ -64,20 +65,20 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				if (recursive.Value)
 				{
-#if UNITY_4_0
-                    SetActiveRecursively(activatedGameObject, activate.Value);
-#else
+#if UNITY_3_5 || UNITY_3_4
                     activatedGameObject.SetActiveRecursively(!activate.Value);
-#endif
-				}
-				else
-				{
-#if UNITY_4_0
-                    activatedGameObject.SetActive(!activate.Value);
 #else
-                    activatedGameObject.active = !activate.Value;
+                    SetActiveRecursively(activatedGameObject, !activate.Value);
 #endif
-				}
+                }
+				else
+                {
+#if UNITY_3_5 || UNITY_3_4
+                    activatedGameObject.active = !activate.Value;                
+#else
+                    activatedGameObject.SetActive(!activate.Value);
+#endif
+                }
 			}
 		}
 
@@ -91,26 +92,26 @@ namespace HutongGames.PlayMaker.Actions
 			}
 			
 			if (recursive.Value)
-			{
-#if UNITY_4_0
-                SetActiveRecursively(go, activate.Value);
-#else
+            {
+#if UNITY_3_5 || UNITY_3_4
                 go.SetActiveRecursively(activate.Value);
+#else               
+                SetActiveRecursively(go, activate.Value);
 #endif
-			}
+            }
 			else
-			{
-#if UNITY_4_0
+            {
+#if UNITY_3_5 || UNITY_3_4
+                go.active = activate.Value;
+#else				
                 go.SetActive(activate.Value);
-#else
-				go.active = activate.Value;
 #endif
-			}
+            }
 
 			activatedGameObject = go;
         }
 
-#if UNITY_4_0
+#if !(UNITY_3_5 || UNITY_3_4)
         public void SetActiveRecursively(GameObject go, bool state)
         {
             go.SetActive(state);

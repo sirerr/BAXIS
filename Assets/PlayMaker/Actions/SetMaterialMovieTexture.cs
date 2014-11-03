@@ -1,13 +1,13 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2011. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
-#if !(UNITY_IPHONE || UNITY_ANDROID || UNITY_FLASH)
+#if !(UNITY_IPHONE || UNITY_ANDROID || UNITY_FLASH || UNITY_PS3 || UNITY_BLACKBERRY || UNITY_METRO || UNITY_WP8)
 
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Material)]
-	[Tooltip("Sets a named texture in a game object's material to a movie texure.")]
+	[Tooltip("Sets a named texture in a game object's material to a movie texture.")]
 	public class SetMaterialMovieTexture : FsmStateAction
 	{
 		[Tooltip("The GameObject that the material is applied to.")]

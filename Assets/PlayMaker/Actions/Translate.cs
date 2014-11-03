@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2011. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
 using UnityEngine;
 
@@ -54,6 +54,11 @@ namespace HutongGames.PlayMaker.Actions
 			lateUpdate = false;
 		    fixedUpdate = false;
 		}
+
+        public override void Awake()
+        {
+            Fsm.HandleFixedUpdate = true;
+        }
 
 		public override void OnEnter()
 		{
