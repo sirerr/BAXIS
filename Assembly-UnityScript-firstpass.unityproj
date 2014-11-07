@@ -123,11 +123,11 @@
      <None Include="Assets\PlayMaker\Versions\readme.txt" />
      <None Include="Assets\NGUI\Examples\Resources\Localization.txt" />
      <None Include="Assets\Photon Unity Networking\changelog.txt" />
- <Reference Include="PlayMaker">
- <HintPath>C:/Users/sirerr/Documents/GitHub/BAX/BAXIS/Assets/PlayMaker/PlayMaker.dll</HintPath>
- </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>C:/Users/sirerr/Documents/GitHub/BAX/BAXIS/Assets/Photon Unity Networking/Plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>C:/Users/sirerr/Documents/GitHub/BAX/BAXIS/Assets/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
