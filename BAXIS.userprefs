@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Titlecode.cs">
+    <Files>
+      <File FileName="Assets\Scripts\tokenspawn.cs" Line="31" Column="63" />
+      <File FileName="Assets\Scripts\Gamecontroller.cs" Line="11" Column="2" />
+      <File FileName="Assets\Scripts\Titlecode.cs" Line="37" Column="17" />
+      <File FileName="Assets\Scripts\Tokencode.cs" Line="13" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

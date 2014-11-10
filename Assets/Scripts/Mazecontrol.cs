@@ -15,7 +15,7 @@ public class Mazecontrol : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		chosenmaze = GameObject.FindWithTag("Maze");
 	}
 	
 	// Update is called once per frame

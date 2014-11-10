@@ -10,10 +10,10 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2014
 		Month: 11
-		Day: 02
-		Hour: 19
-		Minute: 13
-		Second: 25
+		Day: 08
+		Hour: 16
+		Minute: 14
+		Second: 37
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2014-11-02 19:13:25:000"
+CreationTime: "2014-11-08 16:14:37:000"
 Creator: "Blender version 2.70 (sub 0)"
 
 ; Object definitions
@@ -29,7 +29,7 @@ Creator: "Blender version 2.70 (sub 0)"
 
 Definitions:  {
 	Version: 100
-	Count: 17
+	Count: 18
 	ObjectType: "Model" {
 		Count: 9
 	}
@@ -37,7 +37,7 @@ Definitions:  {
 		Count: 1
 	}
 	ObjectType: "Material" {
-		Count: 5
+		Count: 6
 	}
 	ObjectType: "Texture" {
 		Count: 1
@@ -1214,15 +1214,15 @@ Objects:  {
 			Name: ""
 			MappingInformationType: "ByPolygon"
 			ReferenceInformationType: "IndexToDirect"
-			Materials: 4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,3,3,3,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,
-			           2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,
-			           4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,2,0,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,
-			           2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,4,4,
-			           4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,
-			           0,2,0,4,4,4,4,4,4,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,0,2,0,4,4,4,4,4,4,2,2,2,0,
-			           2,0,0,2,0,2,2,2,0,2,0,0,0,2,0,2,2,0,2,2,0,2,2,0,2,2,0,0,2,0,4,4,4,4,4,4,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,0,2,0,4,4,4,4,4,4,2,2,2,0,
-			           2,0,0,2,0,2,2,2,0,2,0,0,2,0,4,4,4,4,4,4,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,4,4,
-			           4,0,2,0,2,2,2,0,2,0,4,4,4,4,4,4,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,0,2,0,2,2,2,0,2,0,1,1,1
+			Materials: 4,4,4,1,1,1,1,2,4,2,2,5,1,2,4,4,3,3,4,2,1,5,2,2,4,2,1,4,4,4,1,1,1,1,2,4,2,2,5,1,2,4,4,2,1,5,2,2,4,2,1,4,4,4,1,1,1,1,2,4,2,2,5,1,
+			           2,4,4,2,1,5,2,2,4,2,1,4,4,4,1,1,1,4,2,1,4,4,4,1,1,1,4,2,1,5,2,2,4,2,1,4,4,4,1,1,1,1,2,4,2,2,5,1,2,4,4,2,1,5,2,2,4,2,1,4,4,4,1,1,
+			           1,1,2,4,2,2,5,1,2,4,4,2,1,5,2,2,4,2,1,4,4,4,2,4,4,5,4,2,2,5,1,2,4,4,5,4,5,2,2,4,2,1,4,4,4,1,1,1,1,2,4,2,2,5,1,2,4,4,2,1,5,2,2,4,
+			           2,1,5,2,2,4,2,1,4,4,4,1,1,1,1,2,4,2,2,5,1,2,4,4,2,1,5,2,2,4,2,1,4,4,4,4,4,4,4,5,4,2,2,5,1,2,4,4,5,4,5,2,2,4,2,1,4,4,4,1,1,1,4,4,
+			           4,4,2,1,5,2,2,4,2,1,1,2,4,2,2,5,1,2,4,1,1,1,4,4,4,4,2,1,5,2,2,4,2,1,1,2,4,2,2,5,1,2,4,1,1,1,4,4,4,4,2,1,5,2,2,4,2,1,1,2,4,2,2,5,
+			           1,2,4,1,1,1,4,4,4,1,2,4,4,4,4,1,1,1,1,2,4,2,2,5,1,2,4,4,2,1,5,2,2,4,2,1,5,2,2,4,2,1,1,2,4,2,2,5,1,2,4,1,2,4,4,4,4,1,1,1,5,2,2,4,
+			           2,1,1,2,4,2,2,5,1,2,4,1,4,2,1,2,2,4,5,5,1,2,2,1,2,2,4,1,2,4,4,4,4,1,1,1,5,2,2,4,2,1,1,2,4,2,2,5,1,2,4,1,2,4,4,4,4,1,1,1,5,2,2,4,
+			           2,1,1,2,4,2,2,5,1,2,4,1,2,4,4,4,4,1,1,1,5,2,2,4,2,1,1,2,4,2,2,5,1,2,4,4,4,4,4,5,4,2,2,5,1,2,4,4,5,4,5,2,2,4,2,1,4,4,4,4,4,4,1,1,
+			           1,1,2,4,2,2,5,1,2,4,1,1,1,4,4,4,4,2,1,5,2,2,4,2,1,1,2,4,2,2,5,1,2,4,1,2,4,2,2,5,1,2,4,4,0,0
 		}
 		Layer: 0 {
 			Version: 100
@@ -2326,36 +2326,6 @@ Objects:  {
 		AudioColor: 0,1,0
 		CameraOrthoZoom: 1
 	}
-	Material: "Material::maze_cube_clear", "" {
-		Version: 102
-		ShadingModel: "lambert"
-		MultiLayer: 0
-		Properties60:  {
-			Property: "ShadingModel", "KString", "", "Lambert"
-			Property: "MultiLayer", "bool", "",0
-			Property: "EmissiveColor", "ColorRGB", "",1.0000,1.0000,1.0000
-			Property: "EmissiveFactor", "double", "",0.0000
-			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
-			Property: "AmbientFactor", "double", "",1.0000
-			Property: "DiffuseColor", "ColorRGB", "",1.0000,1.0000,1.0000
-			Property: "DiffuseFactor", "double", "",0.1000
-			Property: "Bump", "Vector3D", "",0,0,0
-			Property: "TransparentColor", "ColorRGB", "",1,1,1
-			Property: "TransparencyFactor", "double", "",0.0000
-			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
-			Property: "SpecularFactor", "double", "",0.4000
-			Property: "ShininessExponent", "double", "",75.0
-			Property: "ReflectionColor", "ColorRGB", "",0,0,0
-			Property: "ReflectionFactor", "double", "",1
-			Property: "Emissive", "ColorRGB", "",0,0,0
-			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
-			Property: "Diffuse", "ColorRGB", "",1.0,1.0,1.0
-			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
-			Property: "Shininess", "double", "",75.0
-			Property: "Opacity", "double", "",1.0
-			Property: "Reflectivity", "double", "",0
-		}
-	}
 	Material: "Material::maze_cube_end", "" {
 		Version: 102
 		ShadingModel: "lambert"
@@ -2380,6 +2350,36 @@ Objects:  {
 			Property: "Emissive", "ColorRGB", "",0,0,0
 			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
 			Property: "Diffuse", "ColorRGB", "",1.0,0.0,0.0
+			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Shininess", "double", "",12.3
+			Property: "Opacity", "double", "",1.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Material: "Material::maze_cube_side", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Lambert"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.8000,0.8000,0.8000
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "SpecularFactor", "double", "",0.5000
+			Property: "ShininessExponent", "double", "",12.3
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.8,0.8,0.8
 			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
 			Property: "Shininess", "double", "",12.3
 			Property: "Opacity", "double", "",1.0
@@ -2447,6 +2447,36 @@ Objects:  {
 		}
 	}
 	Material: "Material::maze_cube_top_bottom", "" {
+		Version: 102
+		ShadingModel: "lambert"
+		MultiLayer: 0
+		Properties60:  {
+			Property: "ShadingModel", "KString", "", "Lambert"
+			Property: "MultiLayer", "bool", "",0
+			Property: "EmissiveColor", "ColorRGB", "",0.1400,0.1400,0.1400
+			Property: "EmissiveFactor", "double", "",0.0000
+			Property: "AmbientColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "AmbientFactor", "double", "",1.0000
+			Property: "DiffuseColor", "ColorRGB", "",0.1400,0.1400,0.1400
+			Property: "DiffuseFactor", "double", "",0.8000
+			Property: "Bump", "Vector3D", "",0,0,0
+			Property: "TransparentColor", "ColorRGB", "",1,1,1
+			Property: "TransparencyFactor", "double", "",0.0000
+			Property: "SpecularColor", "ColorRGB", "",1.0000,1.0000,1.0000
+			Property: "SpecularFactor", "double", "",0.5000
+			Property: "ShininessExponent", "double", "",12.3
+			Property: "ReflectionColor", "ColorRGB", "",0,0,0
+			Property: "ReflectionFactor", "double", "",1
+			Property: "Emissive", "ColorRGB", "",0,0,0
+			Property: "Ambient", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Diffuse", "ColorRGB", "",0.1,0.1,0.1
+			Property: "Specular", "ColorRGB", "",1.0,1.0,1.0
+			Property: "Shininess", "double", "",12.3
+			Property: "Opacity", "double", "",1.0
+			Property: "Reflectivity", "double", "",0
+		}
+	}
+	Material: "Material::maze_cube_top_bottom__5Xs_png", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -2573,15 +2603,17 @@ Relations:  {
 	}
 	Model: "Model::Camera Switcher", "CameraSwitcher" {
 	}
-	Material: "Material::maze_cube_clear", "" {
-	}
 	Material: "Material::maze_cube_end", "" {
+	}
+	Material: "Material::maze_cube_side", "" {
 	}
 	Material: "Material::maze_cube_side__5Xs_png", "" {
 	}
 	Material: "Material::maze_cube_start", "" {
 	}
 	Material: "Material::maze_cube_top_bottom", "" {
+	}
+	Material: "Material::maze_cube_top_bottom__5Xs_png", "" {
 	}
 	Texture: "Texture::5Xs_png", "TextureVideoClip" {
 	}
@@ -2594,11 +2626,12 @@ Relations:  {
 
 Connections:  {
 	Connect: "OO", "Model::maze-test-simp", "Model::Scene"
-	Connect: "OO", "Material::maze_cube_clear", "Model::maze-test-simp"
 	Connect: "OO", "Material::maze_cube_end", "Model::maze-test-simp"
+	Connect: "OO", "Material::maze_cube_side", "Model::maze-test-simp"
 	Connect: "OO", "Material::maze_cube_side__5Xs_png", "Model::maze-test-simp"
 	Connect: "OO", "Material::maze_cube_start", "Model::maze-test-simp"
 	Connect: "OO", "Material::maze_cube_top_bottom", "Model::maze-test-simp"
+	Connect: "OO", "Material::maze_cube_top_bottom__5Xs_png", "Model::maze-test-simp"
 	Connect: "OO", "Texture::5Xs_png", "Model::maze-test-simp"
 	Connect: "OO", "Video::5Xs_png", "Texture::5Xs_png"
 }
